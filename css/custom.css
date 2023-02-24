@@ -66,7 +66,14 @@ footer{
 }
 
 /* ========== images ==========*/
-
+.img-cheaters-garlic-aioli-index{
+    display: block;
+    width: 50%
+}
+.img-cheaters-garlic-aioli{
+    display: block;
+    width: 18%;
+}
 .img-cream-cheese-pumpkin-bread{
     display: block;
     width: 25%;
