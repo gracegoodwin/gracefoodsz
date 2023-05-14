@@ -1,54 +1,83 @@
-<?php
-include 'top.php';
-?>
-<main>
-            <div class="home-text">
-                <h3>Scroll and see the recipes in the order I uploaded them below or select a section from above!</h3>
-                
-                <a class="<?php
-                if($pathParts['filename'] == 'reuben') {
-                    print 'activePage';
-                }
-                ?>" id="test" href="reuben.php">Reuben</a>
-                <img src="images/reuben.jpg" alt="Reuben" class="img-reuben" style="width:250px;">
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>GraceFoodsz - Home</title>
+        <meta name="author" content="Grace Goodwin">
+        <link rel="stylesheet" href="css/custom.css" type="text/css">
+    
+        <style>
+            body{
+                width: 90%;
+            }
+        </style>
+    </head> 
+    
+    <header>
+        <h1>gracefoodsz recipes</h1>
+    </header>
+    
+    <nav>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="bkfst.html">Breakfast</a></p>
+        <p><a href="lunch.html">Lunch</a></p>
+        <p><a href="dinner.html">Dinner</a></p>
+        <p><a href="sidedish.html">Side Dishes</a></p>
+        <p><a href="dsrt.html">Dessert</a></p>
+        <p><a href="baking.html">Baking</a></p>
+    </nav>
+<body>
+    <main>
+                <div class="home-text">
+                    <h3>Scroll and see the recipes in the order I uploaded them below or select a section from above!</h3>
+                    
+                    <a class="<?php
+                    if($pathParts['filename'] == 'reuben') {
+                        print 'activePage';
+                    }
+                    ?>" id="test" href="reuben.php">Reuben</a>
+                    <img src="images/reuben.jpg" alt="Reuben" class="img-reuben" style="width:250px;">
 
 
-                <a class="<?php
-                if($pathParts['filename'] == 'bagel') {
-                    print 'activePage';
-                }
-                ?>" id="test" href="bagel.php">Bagel</a>
-                <img src="images/bagel.jpg" alt="Bagel" class="img-bagel" style="width:250px;">
+                    <a class="<?php
+                    if($pathParts['filename'] == 'bagel') {
+                        print 'activePage';
+                    }
+                    ?>" id="test" href="bagel.php">Bagel</a>
+                    <img src="images/bagel.jpg" alt="Bagel" class="img-bagel" style="width:250px;">
 
-                <a class="<?php
-                if($pathParts['filename'] == 'Garlic Aioli') {
-                    print 'activePage';
-                }
-                ?>" id="test" href="garlic-aioli.php">Garlic Aioli</a>
-                <img src="images/garlic-aioli.jpg" alt="Garlic Aioli" class="img-garlic-aioli" style="width:250px;">
+                    <a class="<?php
+                    if($pathParts['filename'] == 'Garlic Aioli') {
+                        print 'activePage';
+                    }
+                    ?>" id="test" href="garlic-aioli.php">Garlic Aioli</a>
+                    <img src="images/garlic-aioli.jpg" alt="Garlic Aioli" class="img-garlic-aioli" style="width:250px;">
 
-                <a class="<?php
-                if($pathParts['filename'] == 'Cream Cheese Pumpkin Bread') {
-                    print 'activePage';
-                }
-                ?>" id="test" href="cream-cheese-pumpkin-bread.php">Cream Cheese Pumpkin Bread</a>
-                <img src="images/cream-cheese-pumpkin-bread.jpg" alt="Cream Cheese Pumpkin Bread" class="img-cream-cheese-pumpkin-bread" style="width:250px;">
+                    <a class="<?php
+                    if($pathParts['filename'] == 'Cream Cheese Pumpkin Bread') {
+                        print 'activePage';
+                    }
+                    ?>" id="test" href="cream-cheese-pumpkin-bread.php">Cream Cheese Pumpkin Bread</a>
+                    <img src="images/cream-cheese-pumpkin-bread.jpg" alt="Cream Cheese Pumpkin Bread" class="img-cream-cheese-pumpkin-bread" style="width:250px;">
 
-                <a class="<?php
-                if($pathParts['filename'] == 'Cream Cheese Pumpkin Bread') {
-                    print 'activePage';
-                }
-                ?>" id="test" href="mongolian-beef.php">Mongolian Beef</a>
-                <img src="images/mongolian-beef.jpg" alt="Mongolian Beef" class="img-mongolian-beef" style="width:250px;">
+                    <a class="<?php
+                    if($pathParts['filename'] == 'Cream Cheese Pumpkin Bread') {
+                        print 'activePage';
+                    }
+                    ?>" id="test" href="mongolian-beef.php">Mongolian Beef</a>
+                    <img src="images/mongolian-beef.jpg" alt="Mongolian Beef" class="img-mongolian-beef" style="width:250px;">
 
-                <a class="<?php
-                if($pathParts['filename'] == 'Cream Cheese Pumpkin Bread') {
-                    print 'activePage';
-                }
-                ?>" id="test" href="lemon-thyme-chicken.php">Lemon Thyme Chicken</a>
-                <img src="images/lemon-thyme-chicken.jpg" alt="Lemon Thyme Chicken" class="img-lemon-thyme-chicken" style="width:250px;">
-            </div>
-        </main>
-<?php
-include 'footer.php';
-?>
+                    <a class="<?php
+                    if($pathParts['filename'] == 'Cream Cheese Pumpkin Bread') {
+                        print 'activePage';
+                    }
+                    ?>" id="test" href="lemon-thyme-chicken.php">Lemon Thyme Chicken</a>
+                    <img src="images/lemon-thyme-chicken.jpg" alt="Lemon Thyme Chicken" class="img-lemon-thyme-chicken" style="width:250px;">
+                </div>
+    </main>
+</body>
+
+<footer class="index-footer">
+    <p><a href="sources.html">Sources</a><p>
+    <p><a href="contact.html">Contact</a><p>
+</footer>
