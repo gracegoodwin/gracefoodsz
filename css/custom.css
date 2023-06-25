@@ -47,6 +47,9 @@ footer{
     text-align: center;
     font-size: large;
 }
+.index-text{
+    color: var(--text-color);
+}
 .dish-label{
     text-align: center;
 }
