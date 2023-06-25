@@ -48,7 +48,7 @@ footer{
     font-size: large;
 }
 .index-text{
-    color: var(--text-color);
+    color: rgb(141,158,198);
 }
 .dish-label{
     text-align: center;
