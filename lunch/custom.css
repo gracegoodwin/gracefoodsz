@@ -95,6 +95,10 @@ footer{
     display: block;
     width: 50%;
 }
+.img-reuben{
+    display: block;
+    width: 25%;
+}
 img{
     display: block;
     margin-right: auto;
